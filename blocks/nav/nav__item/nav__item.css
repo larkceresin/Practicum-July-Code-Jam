@@ -1,0 +1,22 @@
+.nav__item {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 30px;
+    border: #fff 10px solid;
+    border-radius: 30%;
+    color: #0882FF;
+    text-decoration: none;
+}
+
+.nav__item:hover {
+    color: #000000;
+    background-color: #0882FF;
+    border-color: #0882FF ;
+    
+}
+
+@media screen and (max-width: 320px) {
+    .nav__item {
+    /********** to do ******/
+    }
+  }

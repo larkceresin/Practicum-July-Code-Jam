@@ -1,0 +1,16 @@
+@import url(./nav__item/nav__item.css);
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 650px;
+}
+
+@media screen and (max-width: 320px) {
+    .nav {
+    /********** to do ******/
+    }
+  }

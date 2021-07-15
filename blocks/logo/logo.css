@@ -1,0 +1,16 @@
+.logo {
+  width: 140px;
+  height: 110px;
+  font-size: 88px;
+  text-align: center;
+  background-color: #0882FF;
+  color: #55F676;
+  margin: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .logo {
+    width: 50px;
+    height: 45px;
+  }
+}

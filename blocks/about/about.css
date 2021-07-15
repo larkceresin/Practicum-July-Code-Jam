@@ -1,0 +1,14 @@
+@import url(./__overlay/about__overlay.css);
+@import url(./__subtitle/about__subtitle.css);
+@import url(./__title/about__title.css);
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    height: 500;
+    width: 100%;
+  }
