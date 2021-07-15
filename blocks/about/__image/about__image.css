@@ -1,6 +1,9 @@
 .about__image {
-    height: 50vh;
-    border-radius: 75%;
-    margin: auto;
-    margin-right: 15vw;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 550px;
+  object-fit: cover;
+  place-self: center;
+  border-radius: 75%;
 }
