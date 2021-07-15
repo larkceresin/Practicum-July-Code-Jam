@@ -1,15 +1,28 @@
-@import url(./__overlay/intro__overlay.css);
-@import url(./__subtitle/intro__subtitle.css);
-@import url(./__title/intro__title.css);
-@import url(./__image/intro__image.css);
-
+@import url(../intro/__title/intro__title.css);
+@import url(../intro/__title/_pos/intro__title_pos_bottom.css);
+@import url(../intro/__title/_pos/intro__title_pos_top.css);
+@import url(../intro/__subtitle/intro__subtitle.css);
 
 .intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-    height: 80vh;
-    width: 100%;
+  margin: 0;
+  padding: 0 20px;
+  min-height: 80vh;
+  background-image: url(../../images/6.png);
+  background-repeat: no-repeat;
+  background-size: 800px auto;
+  background-position: right bottom;
+  z-index: 1;
+}
+
+@media screen and (max-width: 700px){
+  .intro {
+    min-height: 70vh;
+    background-size: 600px auto;
   }
+}
+
+@media screen and (max-width: 500px){
+  .intro {
+    background-size: 400px auto;
+  }
+}
