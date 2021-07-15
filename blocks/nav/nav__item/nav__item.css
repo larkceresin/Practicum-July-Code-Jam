@@ -1,7 +1,8 @@
 .nav__item {
     font-size: 18px;
+    height: 100px;
     font-weight: bold;
-    margin: 0 30px;
+    margin: 0 30 0 0px;
     border: #fff 10px solid;
     border-radius: 30%;
     color: #0882FF;

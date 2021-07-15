@@ -1,0 +1,9 @@
+.about__image {
+    position: absolute;
+    right: 5%;
+    bottom: -15px;
+    max-width: 765px;
+    max-height: 550px;
+    z-index: 1;
+    object-fit: contain;
+  }
