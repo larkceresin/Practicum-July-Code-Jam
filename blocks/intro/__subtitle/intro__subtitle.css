@@ -1,0 +1,14 @@
+.intro__subtitle {
+  font-size: 40px;
+  font-weight: 400;
+  margin-left: 8vw;
+  z-index: 2;
+
+}
+
+p.intro__subtitle {
+  font-size: 30px;
+  color: #55F676;
+  margin-top: 0;
+  margin-left: 18vw;
+}

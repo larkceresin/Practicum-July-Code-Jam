@@ -1,0 +1,15 @@
+@import url(./__overlay/intro__overlay.css);
+@import url(./__subtitle/intro__subtitle.css);
+@import url(./__title/intro__title.css);
+@import url(./__image/intro__image.css);
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+    width: 100%;
+  }

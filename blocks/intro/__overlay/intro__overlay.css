@@ -1,4 +1,4 @@
-.about__overlay {
+.intro__overlay {
     min-height: 200vh;
     min-width: 150vh;
     background-color: #C4C4C4;
@@ -6,5 +6,5 @@
     position: absolute;
     top: -30vh;
     right: -20vw;
-    transform: rotate(45deg);
+    transform: rotate(30deg);
   }

@@ -1,0 +1,8 @@
+.intro__title {
+    z-index: 2;
+    line-height: 96px;
+    font-size: 80px;
+    font-weight: 400;
+    margin-left: 10vw;
+    margin-bottom: 0;
+  }
