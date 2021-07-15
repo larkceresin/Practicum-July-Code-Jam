@@ -2,72 +2,166 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elise Bouer</title>
-    <link rel="stylesheet" href="pages/index.css">
+  <meta charset="UTF-8">
+  <meta name="description" content="A portfolio landling page for Elise>
+  <meta name="keywords" content="HTML, CSS, JS, Portfolio, Elise, Bouer">
+  <meta name="author" content="Jenna, Jess, Shraddha">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elise Bouer</title>
+  <link rel="stylesheet" href="pages/index.css">
 </head>
 
-<body class=body>
+<body class="body">
+  <header class="header">
+    <p class="logo">EB</p>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="#about">About Me</a></li>
+        <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+        <li class="nav__item"><a class="nav__link" href="#portfolio">Portfolio</a></li>
+        <li class="nav__item"><a class="nav__link" href="#contact">Contact Me</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+      </div>
+    </nav>
+  </header>
 
-    <header class="header">
+  <main class="main">
+    <section class="intro">
+      <h1 class="intro__title">
+        <span class="intro__title_pos_top">Hi, My name is</span>
+        <span class="intro__title_pos_bottom">Elise Bouer</span>
+      </h1>
+      <p class="intro__subtitle">I am a Web Developer</p>
+    </section>
 
-        <div class="logo">EB</div>
-        <ul class="nav">
-            <li><a class="nav__item" href="#about">About Me</a></li>
-            <li><a class="nav__item" href="#skills">Skills</a></li>
-            <li><a class="nav__item" href="#portfolio">Portfolio</a></li>
-            <li><a class="nav__item" href="#contact">Contact Me</a></li>
-        </ul>
-    </header>
+    <a id="about"></a>
+    <section class="about">
+      <h2 class="about__title">About Me</h2>
+      <div class="about__content">
+        <div>
+          <p class="about__text">I am proud to say that Practicum changed my life. I went from elementary school teacher to web developer. I started a very successful startup that I was able to sell to a tech giant, and have been relaxing in the Big Easy, freelancing. I aspire to be a software engineer with NASA!</p>
+          <p class="about__text">I am an active volunteer with the Google Developer’s Group (GDG) and often organize
+            tech events and meetups for developers of all skill levels. I’ve been mentoring and have taken many students under my wings. Through it all: I keep up with learning new technologies and keeping up to date with the one’s I’ve arleady learned!</p>
+          <p class="about__text">When I’m between projects, I’m constantly outside: hiking, camping, skiing. I practice Wing Chun, and play with my chickens and pet ferret.</p>
+        </div>
+        <img class="about__image" src="images/44.png" alt="about">
+      </div>
+    </section>
 
-    <main class="main">
-    
-        <section class="intro">
-            <h2 class="intro__subtitle">Hi, I am</h2>
-            
-                <h1 class="intro__title">Elise Bouer</h1>
-                <p class="intro__subtitle">Web Developer</p>
-            
-            <img src="images/5.png" alt="intro" class="intro__image"/>
-            <div class="intro__overlay "></div>
-        </section>
+    <a id="skills"></a>
+    <section class="skills">
+      <h2 class="skills__title">Technologies</h2>
+      <ul class="skills__list">
+        <li class="skills__list-item">
+          <figure class="figure">
+            <img class="figure__img" src="images/html.svg" alt="HTML5 icon">
+            <figcaption class="figure__caption">HTML5</figcaption>
+          </figure>
+        </li>
+        <li class="skills__list-item">
+          <figure class="figure">
+            <img class="figure__img" src="images/css.svg" alt="CSS3 icon">
+            <figcaption class="figure__caption">CSS3</figcaption>
+          </figure>
+        </li>
+        <li class="skills__list-item">
+          <figure class="figure">
+            <img class="figure__img" src="images/js.svg" alt="Javascript icon">
+            <figcaption class="figure__caption">Javascript</figcaption>
+          </figure>
+        </li>
+        <li class="skills__list-item">
+          <figure class="figure">
+            <img class="figure__img" src="images/figma.svg" alt="Figma icon">
+            <figcaption class="figure__caption">Figma</figcaption>
+          </figure>
+        </li>
+        <li class="skills__list-item">
+          <figure class="figure">
+            <img class="figure__img" src="images/git.svg" alt="Git icon">
+            <figcaption class="figure__caption">Git</figcaption>
+          </figure>
+        </li>
+        <li class="skills__list-item">
+          <figure class="figure">
+            <img class="figure__img" src="images/react.svg" alt="React icon">
+            <figcaption class="figure__caption">React</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
 
-        <a id="about"></a>
-        <section class="about">
-            <h2 class="about__title">About Me</h2>
-            <div class="about__content">
-                <div>
-                    <p class="about__text">I am proud to say that Practicum changed my life. I went from elementary school teacher, to web developer. I started a very successful startup that I was able to sell to a tech giant, and have been relxing in the Big Easy, freelancing, and will become be a software engineer with NASA!</p>
-                    <p class="about__text">I am an active volunteer with the Google Developer’s Group (GDG) and often organize tech events and meetups for developers of all skill levels. I’ve been mentoring and have taken many students under my wings. Through it all: I keep up with learning new technologies and keeping up to date with the one’s I’ve arleady learned!</p>
-                    <p class="about__text">When I’m between projects, I’m constantly outside: hiking, camping, skiing. I practive Wing Chun, and play with my chickens and pet ferret.</p>
-                </div>
-                <img class="about__image" src="./images/44.png" alt="about">
-            </div>
-            
-        </section>
+    <a id="portfolio"></a>
+    <section class="portfolio">
+      <h2 class="portfolio__title">Projects</h2>
+      <ul class="cards">
+        <li class="cards__item">
+          <div class="cards__icons">
+            <img class="cards__icon" src="images/icons/folder.svg" alt="folder icon">
+            <a class="cards__link" href="#">
+              <img class="cards__icon" src="images/icons/external-link-symbol.svg" alt="external link">
+            </a>
+          </div>
+          <h2 class="cards__title">Guided Meditation App</h2>
+          <p class="cards__description">
+            Application featuring 5 playable audio clips that walks the user through a guided meditation session. The app also has a timer feature that allows the user to set a number of minutes (being the length of their meditation session). The timer will "gong" randomly throughout the duration of the session, and will make a noise at the end of the session.
+          </p>
+          <ul class="cards__technologies-list">
+            <li class="cards__technology">React</li>
+            <li class="cards__technology">HTML</li>
+            <li class="cards__technology">CSS</li>
+          </ul>
+        </li>
+        <li class="cards__item">
+          <div class="cards__icons">
+            <img class="cards__icon" src="images/icons/folder.svg" alt="folder icon">
+            <a class="cards__link" href="#">
+              <img class="cards__icon" src="images/icons/external-link-symbol.svg" alt="external link">
+            </a>
+          </div>
+          <h2 class="cards__title">Guided Meditation App</h2>
+          <p class="cards__description">
+            Application featuring 5 playable audio clips that walks the user through a guided meditation session. The app also has a timer feature that allows the user to set a number of minutes (being the length of their meditation session). The timer will "gong" randomly throughout the duration of the session, and will make a noise at the end of the session.
+          </p>
+          <ul class="cards__technologies-list">
+            <li class="cards__technology">React</li>
+            <li class="cards__technology">HTML</li>
+            <li class="cards__technology">CSS</li>
+          </ul>
+        </li>
+        <li class="cards__item">
+          <div class="cards__icons">
+            <img class="cards__icon" src="images/icons/folder.svg" alt="folder icon">
+            <a class="cards__link" href="#">
+              <img class="cards__icon" src="images/icons/external-link-symbol.svg" alt="external link">
+            </a>
+          </div>
+          <h2 class="cards__title">Guided Meditation App</h2>
+          <p class="cards__description">
+            Application featuring 5 playable audio clips that walks the user through a guided meditation session. The app also has a timer feature that allows the user to set a number of minutes (being the length of their meditation session). The timer will "gong" randomly throughout the duration of the session, and will make a noise at the end of the session.
+          </p>
+          <ul class="cards__technologies-list">
+            <li class="cards__technology">React</li>
+            <li class="cards__technology">HTML</li>
+            <li class="cards__technology">CSS</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
 
-        <a id="skills"></a>
-        <section class="skills">
+    <a id="contact"></a>
+    <section class="contact">
+    </section>
+  </main>
 
-        </section>
+  <footer class="footer">
+  </footer>
 
-        <a id="portfolio"></a>
-        <section class="portfolio">
-            
-        </section>
-
-        <a id="contact"></a>
-        <section class="contact">
-            
-        </section>
-
-    </main>
-
-    <footer class="footer">
-    </footer>
-
-
+  <script type="text/javascript" src="scripts/script.js"></script>
 </body>
 
 </html>
