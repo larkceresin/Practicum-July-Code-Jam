@@ -1,10 +1,10 @@
 .intro__overlay {
     min-height: 200vh;
-    min-width: 150vh;
+    min-width: 110vh;
     background-color: #C4C4C4;
     z-index: 0;
     position: absolute;
     top: -30vh;
-    right: -20vw;
+    right: 1vw;
     transform: rotate(30deg);
   }
