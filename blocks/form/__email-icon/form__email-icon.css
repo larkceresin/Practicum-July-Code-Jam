@@ -1,0 +1,16 @@
+.form__email-icon {
+  margin: 0;
+  padding: 0 10px;
+  display: block;
+  background-color: #0882ff;
+  border-radius: 5px 0 0 5px;
+}
+
+.form__email-icon::before {
+  content: "\2709";
+  position: relative;
+  top: 5px;
+  height: 100%;
+  font-size: 50px;
+  color: #fff;
+}

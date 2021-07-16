@@ -2,6 +2,7 @@
 @import url(../nav/__link/nav__link.css);
 @import url(../nav/__list/nav__list.css);
 @import url(../nav/__list/_active/nav__list_active.css);
+@import url(../nav/__icon/nav__icon.css);
 
 .nav {
   margin: 0;

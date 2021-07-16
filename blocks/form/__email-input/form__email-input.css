@@ -1,0 +1,24 @@
+.form__email-input {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 10px;
+  flex: 1;
+  min-height: 50px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.2;
+  background-color: rgba(229, 229, 229, 0.5);
+  border: 0;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+}
+
+.form__email-input:focus,
+.form__email-input:hover {
+  border: 2px solid #0882ff;
+  border-left: none;
+}
+
+.form__email-input:focus {
+  background-color: #fff;
+}

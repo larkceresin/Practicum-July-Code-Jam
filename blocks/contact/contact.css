@@ -1,0 +1,19 @@
+@import url(../contact/__title/contact__title.css);
+
+.contact {
+  margin: 0 auto;
+  padding: 50px 0;
+  min-height: 500px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    width: 80%;
+  }
+}
