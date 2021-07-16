@@ -1,0 +1,11 @@
+.figure__img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: 120px;
+  transition: all 0.3s ease-in;
+}
+
+.figure__img:hover {
+  transform: scale(1.1);
+}

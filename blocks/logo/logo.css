@@ -1,16 +1,25 @@
 .logo {
-  width: 140px;
-  height: 110px;
-  font-size: 88px;
-  text-align: center;
-  background-color: #0882FF;
-  color: #55F676;
-  margin: 20px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 25px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #000;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (max-width: 320px) {
-  .logo {
-    width: 50px;
-    height: 45px;
-  }
+.logo::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: 5px solid #0882FF;
+  transition: all 0.3s linear;
+}
+
+.logo:hover.logo::before{
+  transform: rotate(-45deg);
 }

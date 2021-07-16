@@ -1,0 +1,9 @@
+.figure__caption {
+  margin: 0;
+  padding: 20px 0 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+}
