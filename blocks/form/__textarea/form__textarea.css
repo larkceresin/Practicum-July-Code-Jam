@@ -30,3 +30,9 @@
 .form__textarea:valid {
   border: 2px solid #0882ff;
 }
+
+@media screen and (max-width: 600px) {
+  .form__textarea {
+    font-size: 20px;
+  }
+}

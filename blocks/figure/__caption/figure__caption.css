@@ -7,3 +7,16 @@
   text-transform: uppercase;
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .figure__caption {
+    padding: 15px 0 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .figure__caption {
+    padding: 10px 0 0;
+    font-size: 16px;
+  }
+}

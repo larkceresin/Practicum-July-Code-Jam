@@ -1,3 +1,5 @@
+@import url(../logo/__link/logo__link.css);
+
 .logo {
   box-sizing: border-box;
   margin: 0;
@@ -6,9 +8,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
-  color: #000;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .logo::before {
@@ -18,8 +17,15 @@
   height: 60px;
   border: 5px solid #0882FF;
   transition: all 0.3s linear;
+  z-index: -1;
 }
 
 .logo:hover.logo::before{
   transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    padding: 18px;
+  }
 }

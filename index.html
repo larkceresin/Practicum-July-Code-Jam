@@ -15,7 +15,9 @@
 <body class="body">
   <!-- header and main navigation -->
   <header class="header">
-    <p class="logo">EB</p>
+    <p class="logo">
+      <a class="logo__link" href="/index.html">EB</a>
+    </p>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__item"><a class="nav__link" href="#about">About Me</a></li>
@@ -161,17 +163,19 @@
     <!-- want to drop a message to Elise, the visitor can do it here -->
     <a id="contact"></a>
     <section class="contact">
-      <h2 class="contact__title">Want to drop me a message?</h2>
-      <form class="form" action="" method="get">
-        <div class="form__email">
-          <span class="form__email-icon"></span>
-          <input class="form__email-input" type="email" name="email" placeholder="Enter your email" required>
-        </div>
-        <textarea class="form__textarea" name="message" placeholder="Write your message" minlength="5" required></textarea>
-        <div class="form__btns">
-          <button type="reset" class="form__btn form__btn_type_reset">Reset</button>
-          <button type="submit" class="form__btn form__btn_type_submit">Sumbit</button>
-        </div>
+      <div class="contact__wrapper">
+        <h2 class="contact__title">Want to drop me a message?</h2>
+        <form class="form" action="" method="get">
+          <div class="form__email">
+            <span class="form__email-icon"></span>
+            <input class="form__email-input" type="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <textarea class="form__textarea" name="message" placeholder="Write your message" minlength="5" required></textarea>
+          <div class="form__btns">
+            <button type="reset" class="form__btn form__btn_type_reset">Reset</button>
+            <button type="submit" class="form__btn form__btn_type_submit">Sumbit</button>
+          </div>
+      </div>
       </form>
     </section>
   </main>

@@ -11,5 +11,6 @@
 @media screen and (max-width: 600px) {
   .about__content {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 90%;
   }
 }
