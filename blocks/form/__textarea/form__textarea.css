@@ -22,3 +22,9 @@
 .form__textarea:focus {
   background-color: #fff;
 }
+
+@media screen and (max-width: 600px) {
+  .form__textarea {
+    font-size: 20px;
+  }
+}

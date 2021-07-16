@@ -9,3 +9,15 @@
 .figure__img:hover {
   transform: scale(1.1);
 }
+
+@media screen and (max-width: 600px) {
+  .figure__img {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .figure__img {
+    height: 80px;
+  }
+}

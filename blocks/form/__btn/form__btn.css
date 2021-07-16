@@ -24,3 +24,9 @@
   box-shadow: inset 150px 0 0 0 #0882ff;
   color: #fff;
 }
+
+@media screen and (max-width: 375px) {
+  .form__btn{
+    padding: 10px 20px;
+  }
+}

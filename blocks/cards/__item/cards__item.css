@@ -13,3 +13,9 @@
 .cards__item:hover {
   transform: translate(0, -5px)
 }
+
+@media screen and (max-width: 600px) {
+  .cards__item {
+    padding: 20px;
+  }
+}
