@@ -12,6 +12,12 @@ padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    transition: all ease-in-out .5s;
+}
+.track__item:hover{
+    cursor: pointer;
+    color: olivedrab;
+    border-color: black;
 }
 .track__text{
     margin: 10px;

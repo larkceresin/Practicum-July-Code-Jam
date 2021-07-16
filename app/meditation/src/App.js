@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Audio from './components/Audio/Audio';
 import bodyScan from './meditations/StillMind4MinuteBodyScan.mp3';
@@ -10,6 +9,7 @@ import twentyMinute from './meditations/FreeMindfulness20MinuteBellsWithInterval
 import Yoga from './assets/Yoga - Relax.svg';
 import TrackList from './components/TrackList/TackList';
 import { useState } from 'react';
+import CustomTimer from './components/CustomTimer/CustomTimer';
 function App() {
   const [selectedTrack, setSelectedTrack] = useState({ src: "", title: "" })
   const [selectedAudio, setSelectedAudio] = useState({});
@@ -58,6 +58,7 @@ function App() {
         <h2 className="header__subheading">Guided Meditation on your terms</h2>
       </header>
       <img src={Yoga} className="header__image" alt="Character in a yoga pose with green flower behind them." />
+      <CustomTimer/>
       <Audio
         src={selectedAudio}
         title={selectedTrack.name}
