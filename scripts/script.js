@@ -32,3 +32,34 @@ function validate() {
 }
 emailInput.addEventListener('keypress', validate);
 message.addEventListener('keypress', validate);
+
+// form submission
+function sendEmail(e) {
+e.preventDefault()
+  let data = {
+    user_id:'user_lqAu9Wnx2MCihyIZIhiOJ',
+    service_id:'service_mz9q7w8',
+    template_id:'template_78a4q16',
+    template_params: {
+      from_name: "Elise Bouer",
+      reply_to: emailInput.textContent,
+      message: message.textContent
+    }
+  }
+  fetch('https://api.emailjs.com/api/v1.0/email/send', {
+    method: "POST",
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    data: JSON.stringify(data)
+  }).then((res)=> {
+    console.log(res)
+    form.reset()
+    alert('Your mail was sent!')
+  })
+  .catch((err)=>{
+    console.log(err)
+    alert('Something went wrong')
+  })
+}
+form.addEventListener('submit', sendEmail)
