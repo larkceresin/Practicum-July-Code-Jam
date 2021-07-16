@@ -22,3 +22,11 @@
 .form__textarea:focus {
   background-color: #fff;
 }
+
+.form__textarea:invalid {
+  border: 1px solid #141d27;
+} 
+
+.form__textarea:valid {
+  border: 2px solid #0882ff;
+}

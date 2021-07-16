@@ -22,3 +22,11 @@
 .form__email-input:focus {
   background-color: #fff;
 }
+
+ .form__email-input:invalid {
+  border: 1px solid #141d27;
+} 
+
+.form__email-input:valid {
+  border: 2px solid #0882ff;
+}
