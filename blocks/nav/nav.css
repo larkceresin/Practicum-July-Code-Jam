@@ -1,6 +1,7 @@
 @import url(../nav/__item/nav__item.css);
 @import url(../nav/__link/nav__link.css);
 @import url(../nav/__list/nav__list.css);
+@import url(../nav/__icon/nav__icon.css);
 @import url(../nav/__list/_active/nav__list_active.css);
 
 .nav {
