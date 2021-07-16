@@ -14,14 +14,14 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 768px){
   .intro {
     min-height: 70vh;
     background-size: 600px auto;
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
   .intro {
     background-size: 400px auto;
   }

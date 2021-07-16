@@ -6,4 +6,10 @@
   object-fit: cover;
   place-self: center;
   border-radius: 75%;
+  transition: all .3s ease-in-out;
+}
+
+.about__image:hover {
+  box-shadow: 0 0 0 4px #0882FF,
+              0 0 0 6px #fff;
 }
