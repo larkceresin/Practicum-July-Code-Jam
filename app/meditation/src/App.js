@@ -7,7 +7,7 @@ import Movements from './meditations/CoreyRoosGentleMindfulYoga.mp3'
 import fiveMinuteBells from './meditations/FreeMindfulness5MinuteJustBells.mp3';
 import twentyMinute from './meditations/FreeMindfulness20MinuteBellsWithIntervals.mp3';
 import Yoga from './assets/Yoga - Relax.svg';
-import TrackList from './components/TrackList/TackList';
+import TrackList from './components/TrackList/TrackList';
 import { useState } from 'react';
 import CustomTimer from './components/CustomTimer/CustomTimer';
 function App() {
